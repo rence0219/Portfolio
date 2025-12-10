@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Lawrence's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2>Lawrence's Portfolio</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="gallery.html" class="nav-link active">Gallery</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Photo Gallery</h1>
+                <p>This is all of my photos</p>
+            </div>
+        </section>
+
+        <section class="gallery-section">
+            <div class="container">
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">All Photos</button>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item architecture">
+                        <div class="gallery-image">
+                            <img src="d:\Anime\Naruto.webp" alt="Main Entrance">
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Naruto Shippuden</h3>
+                            <p>My first most favorite anime</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item architecture">
+                        <div class="gallery-image">
+                            <img src="d:\Anime\Dragon Ball.jpg" alt="Watchtower">
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Dragon Ball</h3>
+                            <p>My second anime that I liked</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item landscape">
+                        <div class="gallery-image">
+                            <img src="d:\Anime\One punch Man.jpg" alt="Sunset View">
+                        </div>
+                        <div class="gallery-info">
+                            <h3>One Punch Man</h3>
+                            <p>My third anime that i liked and still watching it</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item landscape">
+                        <div class="gallery-image">
+                            <img src="d:\Anime\Tokyo Ghoul.webp" alt="Fort Gardens">
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Tokyo Ghoul</h3>
+                            <p>This is my last favorite anime</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Lawrence's Fort Pollio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
